@@ -2,16 +2,16 @@
 
 ## Descripción
 
-Este proyecto es una aplicación web desarrollada para la gestión integral de un restaurante. Permite a los empleados tomar pedidos, gestionar inventarios y enviar órdenes directamente a la cocina en tiempo real. El backend está construido con **Flask**, mientras que el frontend utiliza **React** para una experiencia de usuario fluida y moderna. La base de datos está manejada por **PostgreSQL**, y la autenticación se realiza mediante **OAuth2** para garantizar la seguridad.
+Este proyecto es una aplicación web desarrollada para la gestión integral de un restaurante. Permite a los empleados tomar pedidos, gestionar inventarios y enviar órdenes directamente a la cocina en tiempo real. El backend está construido con **Next.js**, mientras que el frontend utiliza **React** para una experiencia de usuario fluida y moderna. La base de datos está manejada por **MongoDB**, y la autenticación se realiza mediante **OAuth2** para garantizar la seguridad.
 
 ## Tecnologías Utilizadas
 
 - **Frontend**: React (SPA) + Redux para la gestión del estado.
-- **Backend**: Flask con Flask-RESTful para las APIs REST.
-- **Base de Datos**: PostgreSQL.
+- **Backend**: Next.js con RESTful para las APIs REST.
+- **Base de Datos**: MongoDB.
 - **Autenticación**: OAuth2.
-- **ORM**: Flask-SQLAlchemy.
-- **Migraciones**: Flask-Migrate para el manejo de la base de datos.
+- **ORM**: POR DEFINIR.
+- **Migraciones**: POR DEFINIR.
 
 ## Funcionalidades Principales
 
@@ -22,7 +22,7 @@ Este proyecto es una aplicación web desarrollada para la gestión integral de u
 
 ## Requisitos
 
-- **Python 3.8+**
+- **Next.js** Full Stack
 - **Node.js** para el frontend (React)
 - **PostgreSQL** como base de datos
 
