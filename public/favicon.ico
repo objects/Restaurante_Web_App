@@ -1,0 +1,19 @@
+// src/app/layout.js
+import Head from 'next/head';
+import '../styles/global.css'; // Asegúrate de importar tus estilos globales
+
+export default function Layout({ children }) {
+    return (
+        <>
+            <Head>
+                <title>Restaurante App</title>
+                <link
+                    rel="icon"
+                    type="image/webp"
+                    href="/DALL·E 2024-10-07 01.25.31 - A simple and modern favicon design for a restaurant. The favicon features a stylized plate with a fork and knife crossed on top, all in a minimalistic.webp"
+                />
+            </Head>
+            <main>{children}</main>
+        </>
+    );
+}
